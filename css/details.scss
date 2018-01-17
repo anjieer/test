@@ -1,0 +1,1363 @@
+@charset "UTF-8";
+
+html,body{
+	height:100%;
+	background:#EAEAEA;
+	font-size:20px;
+}
+
+@function db($num){
+    @return $num/20;
+}
+/**********************************图片轮播开始******************************/
+.ban{
+    width:100%;
+    height:auto;
+    position: relative;
+    img{
+      width:100%;
+      height:auto;  
+    }
+}
+.ban-left{
+    width:db(30rem);
+    height:db(30rem);
+    border:1px solid red;
+    position: absolute;
+    left:db(15rem);
+    top:db(15rem);
+    i{
+    font-family: 'iconfont';
+    font-size:db(16rem);
+    color:#000;
+    line-height:db(30rem); 
+    margin-left:db(7rem); 
+   } 
+    @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot');
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.svg#iconfont') format('svg');
+    }
+}
+.ban-right{
+    width:db(30rem);
+    height:db(30rem);
+    border:1px solid red;
+    position: absolute;
+    right:db(15rem);
+    top:db(15rem);
+    i{
+    font-family: 'iconfont';
+    font-size:db(16rem);
+    color:#000;
+    line-height:db(30rem);
+    margin-left:db(7rem); 
+   } 
+    @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot');
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.svg#iconfont') format('svg');
+    }
+}
+.ban-down{
+    width:db(50rem);
+    height:db(20rem);
+    border-radius: db(8rem);
+    position: absolute;
+    right:db(10rem);
+    bottom:db(10rem);
+    background:rgba(0,0,0,0.5);
+    color:#fff;
+    line-height: db(20rem);
+    font-size:db(16rem);
+    text-align: center;
+}
+/**********************************图片轮播结束******************************/
+/**********************************免邮费开始******************************/
+.free{
+    width:100%;
+    height:db(160rem);
+    background:#fff;
+    overflow: hidden;
+}
+.free-con{
+    width:95%;
+    height:db(150rem);
+    margin:auto;
+    margin-top:db(5rem);
+}
+.free-top{
+    width:100%;
+    height:db(40rem);
+    span{
+        display: inline-block;
+        color:#424242;
+        font-size:db(16rem);
+    }
+}
+.free-cen{
+   width:100%;
+   height:db(40rem);
+   margin-top:db(5rem);
+}
+.free-cen-left{
+    width:auto;
+    height:db(40rem);
+    float:left;
+     span{
+        font-size:db(26rem);
+        line-height:db(40rem);
+         float:left;
+    }
+    i{
+       font-size:db(14rem); 
+        float:left;
+    }
+     del{
+        color:#727272;
+        float:left;
+        font-size:db(12rem);
+        margin-left:db(5rem);
+        margin-top:db(5rem);
+    }
+    .spa1{
+        background:#FFE8EE;
+        color:#FF2255;
+        float:left;
+        font-size:db(12rem);
+        margin-left:db(5rem);
+     }
+}
+.free-down{
+    width:100%;
+    height:db(25rem);
+    margin-top:db(5rem);
+    color:#727272;
+    font-size:db(14rem);
+    line-height:db(25rem);
+    border-bottom:1px solid #ccc;
+}
+.free-last{
+    width:100%;
+    height:db(30rem);
+    margin-top:db(5rem);
+}
+.free-last-left{
+    width:30%;
+    height:db(30rem);
+    float:left;
+    background:red;
+    i{
+        font-family:'iconfont';
+        font-size:db(14rem);
+        float:left;
+        line-height: db(30rem);
+    }
+    @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot');
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.svg#iconfont') format('svg');
+    }
+    .pan1{
+        color:#727272;
+        font-size:db(14rem);
+        line-height: db(30rem);
+    }
+} 
+.free-last-cen{
+    width:30%;
+    height:db(30rem);
+    margin-left:db(5rem);
+    float:left;
+    background:yellow;
+    i{
+        font-family:'iconfont';
+        font-size:db(14rem);
+        float:left;
+        line-height: db(30rem);
+    }
+    @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot');
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.svg#iconfont') format('svg');
+    }
+    .pan2{
+        color:#727272;
+        font-size:db(14rem);
+        line-height: db(30rem);
+    }
+} 
+.free-last-right{
+    width:30%;
+    height:db(30rem);
+    margin-left:db(5rem);
+    float:left;
+    background:yellow;
+    i{
+        font-family:'iconfont';
+        font-size:db(14rem);
+        float:left;
+        line-height: db(30rem);
+    }
+    @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot');
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.svg#iconfont') format('svg');
+    }
+    .pan3{
+        color:#727272;
+        font-size:db(14rem);
+        line-height: db(30rem);
+    }
+} 
+.free-right-right{
+    width:6%;
+    height:db(30rem);
+    float:right;
+    i{
+        font-family:'iconfont';
+        font-size:db(14rem);
+        float:right;
+        line-height: db(30rem);
+    }
+    @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_qj3sr8bq64aq0k9.eot');
+      src: url('//at.alicdn.com/t/font_501800_qj3sr8bq64aq0k9.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_qj3sr8bq64aq0k9.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_qj3sr8bq64aq0k9.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_qj3sr8bq64aq0k9.svg#iconfont') format('svg');
+    }
+}
+/**********************************免邮费结束******************************/
+/**********************************优惠活动开始******************************/
+.sale{
+    width:100%;
+    height:db(146rem);
+    background:#fff;
+    margin-top:db(10rem);
+    overflow: hidden;
+}
+.sale-con{
+    width:95%;
+    height:db(130rem);
+    margin:auto;
+    margin-top:db(8rem);
+    border-bottom:1px solid #ccc;
+}
+.sale-con-top{
+    width:100%;
+    height:db(85rem);
+    border-bottom:1px solid #ccc;
+}
+.sale-con-span{
+     width:100%;
+    height:db(20rem);
+     span{
+        width:100%;
+        height:db(20rem);
+        color:#727272;
+        display: block;
+        font-size:db(14rem);
+        line-height: db(20rem);
+    }
+}
+.sale-con-cen{
+    width:100%;
+    height:db(38rem);
+    margin-top:db(10rem);
+}
+.back{
+    width:24%;
+    height:db(38rem);
+    background:#FF5579;
+    border-radius: db(4rem);
+    float:left;
+   i{
+        color:#fff;
+        font-size:db(16rem);
+        font-weight: bold;
+        text-align: center;
+        display: block;
+    }
+    span{
+        color:#fff;
+        font-size:db(14rem);
+        text-align: center;
+        display: block;
+    }
+}
+.backs{
+     width:24%;
+    height:db(38rem);
+    background:#FF5579;
+    border-radius: db(4rem);
+    float:left;
+    margin-left:1.4%;
+   i{
+        color:#fff;
+        font-size:db(16rem);
+        font-weight: bold;
+        text-align: center;
+        display: block;
+    }
+    span{
+        color:#fff;
+        font-size:db(14rem);
+        text-align:center;
+        display: block;
+    }
+}
+.backed{
+     width:24%;
+    height:db(38rem);
+    background:#FF5579;
+    border-radius:db(4rem);
+    float:right;
+   i{
+        color:#fff;
+        font-size:db(16rem);
+        font-weight: bold;
+        text-align: center;
+        display: block;
+    }
+    span{
+        color:#fff;
+        font-size:db(14rem);
+        text-align: center;
+        display: block;
+    }
+}
+.sale-con-down{
+    width:100%;
+    height:db(60rem);
+}
+.sale-down-left{
+    width:70%;
+    height:db(60rem);
+    float:left;
+}
+.sale-left-con{
+    width:100%;
+    height:db(40rem);
+    margin-top:db(6rem);
+}
+.sale-left-top{
+    width:100%;
+    height:db(20rem);
+    margin-top:db(6rem);
+    .spa2{
+        width:20%;
+        height:db(20rem);
+        background:#F87119;
+        color:#fff;
+        font-size:db(14rem);
+        line-height:db(20rem);
+        border-radius:db(4rem);
+    }
+    .spa3{
+        width:80%;
+        height:db(20rem);
+        color:#727272;
+        font-size:db(12rem);
+        line-height:db(20rem);
+    }
+}
+.sale-left-tops{
+    width:100%;
+    height:db(20rem);
+    .spa2{
+        width:20%;
+        height:db(20rem);
+        background:#F87119;
+        color:#fff;
+        font-size:db(14rem);
+        line-height:db(20rem);
+        border-radius:db(4rem);
+    }
+    .spa3{
+        width:80%;
+        height:db(20rem);
+        color:#727272;
+        font-size:db(12rem);
+        line-height:db(20rem);
+    }
+}
+.sale-down-right{
+    width:30%;
+    height:db(60rem);
+    float:right;
+    span{
+        color:#727272;
+        font-size:db(16rem);
+        line-height:db(50rem);
+        margin-left:db(5rem);
+    }
+    i{
+        font-family: 'iconfont';
+        font-size:db(16rem);
+        line-height:db(50rem);
+    }
+        @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot');
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.svg#iconfont') format('svg');
+    }
+}
+/**********************************优惠活动结束******************************/
+/**********************************请选择开始******************************/
+.select{
+    width:100%;
+    height:db(40rem);
+    background:#fff;
+    margin-top:db(10rem);
+}
+.select-con{
+    width:95%;
+    height:db(40rem);
+    margin:auto;
+    span{
+        color:#727272;
+        font-size:db(16rem);
+        line-height:db(40rem);
+        float:left;
+    }
+    i{
+        font-family: 'iconfont';
+        font-size:db(16rem);
+        line-height:db(40rem);
+        float:right;
+    }
+        @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot');
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.svg#iconfont') format('svg');
+    }
+}
+/**********************************请选择结束******************************/
+/**********************************评价开始******************************/
+.com{
+    width:100%;
+    height:db(290rem);
+    background:#fff;
+    margin-top:db(10rem);
+    overflow: hidden;
+}
+.com-con{
+    width:95%;
+    height:db(260rem);
+    margin:auto;
+}
+.com-con-con{
+    width:100%;
+    height:db(184rem);
+    border-bottom:1px solid #ccc;
+}
+.com-con-top{
+    width:100%;
+    height:db(20rem);
+    span{
+       display: block;
+       line-height:db(20rem);
+        font-size:db(14rem);
+        color:#727272;
+        float:left;
+    }
+    i{
+        font-family: 'iconfont';
+        font-size:db(16rem);
+        line-height:db(40rem);
+        float:right;
+        margin-top:db(-10rem);
+    }
+        @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot');
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.svg#iconfont') format('svg');
+    }
+}
+.com-con-cen{
+    width:100%;
+    height:db(50rem);
+    margin-top:db(10rem);
+    .spa4{
+        width:30%;
+        height:db(20rem);
+        display:block;
+        border-radius:db(4rem);
+        background:#FFE8EE;
+        color:#FF2255;
+        font-size:db(14rem);
+        text-align: center;
+        float:left;
+        margin-top:db(4rem);
+        margin-left:db(4rem);
+    }
+}
+.com-con-down{
+    width:100%;
+    height:db(70rem);
+    margin-top:db(10rem);
+}
+.com-con-down-top{
+    width:100%;
+    height:db(30rem);
+    i{
+        font-family: 'iconfont';
+        font-size:db(16rem);
+        line-height:db(40rem);
+        float:left; 
+        line-height:db(30rem);
+    }
+    @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot');
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.svg#iconfont') format('svg');
+   }
+    span{
+        color:#727272;
+        float:left;
+        line-height:db(30rem);
+        font-size:db(14rem);
+    }
+}
+.com-con-down-cen{
+    width:100%;
+    height:db(20rem);
+    span{
+        color:#727272;
+        float:left;
+        line-height:db(20rem);
+        font-size:db(14rem);
+    }
+}
+.com-con-down-down{
+    width:100%;
+    height:db(20rem);
+    span{
+        color:#727272;
+        float:left;
+        line-height:db(20rem);
+        font-size:db(12rem);
+    }
+}
+.com-con-last{
+    width:100%;
+    height:db(76rem);
+    margin-top:db(6rem);
+}
+/**********************************评价结束******************************/
+/**********************************进店开始******************************/
+.shop{
+    width:100%;
+    height:db(136rem);
+    background:#fff;
+    margin-top:db(10rem);
+    overflow:hidden;
+}
+.shop-con{
+    width:95%;
+    height:db(110rem);
+    margin:auto;
+    margin-top:db(13rem);
+}
+.shop-top{
+    width:100%;
+    height:db(45rem);
+    overflow: hidden;
+    img{
+        width:db(45rem);
+        height:db(45rem);
+        float:left;
+    }
+    b{
+        display: block;
+        color:#727272;
+        font-size:db(14rem);
+        margin-top:db(5rem);
+        margin-left:db(5rem);
+    }
+    i{
+        font-family: 'iconfont';
+        font-size:db(16rem);
+        line-height:db(25rem);
+        margin-left:db(5rem);
+    }
+    @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot');
+      src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.svg#iconfont') format('svg');
+   }
+    span{
+        width:db(60rem);
+        height:db(30rem);
+        float:right;
+        display: block;
+        color:#FF5777;
+        font-size:db(14rem);
+        text-align: center;
+        line-height:db(30rem);
+        border:1px solid #FF5777;
+        border-radius: db(2rem);
+        margin-top:db(-15rem);
+    }
+}
+.shop-down{
+    height:db(65rem);
+    overflow: hidden;
+}
+.shop-down-left{
+    width:33%;
+    height:db(65rem);
+    border-right:1px solid #ccc;
+    overflow: hidden;
+    float:left;
+    span{
+        display: block;
+        color:#727272;
+        font-size:db(14rem);
+        margin-top:db(10rem);
+        text-align: center;
+    }
+    em{
+        color:#ccc;
+        font-size:db(14rem);
+        text-align: center; 
+        display: block;
+    }
+}
+.shop-down-lefts{
+    width:33%;
+    height:db(65rem);
+    overflow: hidden;
+    float:left;
+    .spa5{
+        display: block;
+        color:#727272;
+        font-size:db(14rem);
+        margin-top:db(10rem);
+        text-align: center;
+    }
+    .spa6{
+        display: block;
+        color:#727272;
+        font-size:db(14rem);
+        margin-top:db(3rem);
+        text-align: center;
+    }
+}
+/**********************************进店结束******************************/
+/**********************************图文详情开始******************************/
+.deta{
+    width:100%;
+    height:db(130rem);
+//    background:#fff;
+    background:orange;
+    margin-top:db(10rem);
+}
+.deta-top{
+    width:100%;
+    height:db(37rem);
+    border-bottom:1px solid #ccc;
+}
+
+.deta-top-left{
+    width:33.3%;
+    height:db(37rem);
+    color:#333;
+    font-size:db(14rem);
+    text-align: center;
+    line-height:db(37rem);
+    float:left;
+}
+.deta-down{
+    width:100%;
+    height:db(85rem);
+    overflow: hidden;
+}
+.deta-down-con{
+    width:95%;
+    height:db(65rem);
+    background:red;
+    margin:auto;
+    margin-top:db(13rem);
+    overflow: hidden;
+    span{
+        display: block;
+        color:#333;
+        text-align: center;
+        font-size:db(14rem);
+        margin-top:db(10rem);
+        float:left;
+    }
+}
+/**********************************图文详情结束******************************/
+/**********************************穿着效果开始******************************/
+.effect{
+    width:100%;
+    height:auto;
+}
+.eff-top{
+    width:100%;
+    height:db(30rem);
+    background:green;
+}
+.eff-con{
+    width:95%;
+    height:db(30rem);
+    margin:auto;
+    background:#fff;
+    span{
+        color:#333;
+        font-size:db(14rem);
+        line-height:db(30rem);
+        display:block;
+    }
+}
+.eff-down{
+    width:100%;
+    height:db(480rem);
+    background: red;
+    margin-top:db(3rem);
+    img{
+       width:100%;
+       height:db(480rem);
+    }
+}
+/**********************************穿着效果结束******************************/
+/**********************************整体款式开始******************************/
+.effect{
+    width:100%;
+    height:auto;
+}
+.eff-top{
+    width:100%;
+    height:db(30rem);
+    background:green;
+}
+.eff-con{
+    width:95%;
+    height:db(30rem);
+    margin:auto;
+    background:#fff;
+    span{
+        color:#333;
+        font-size:db(14rem);
+        line-height:db(30rem);
+        display:block;
+    }
+}
+.eff-downs{
+    width:100%;
+    height:db(320rem);
+    background: red;
+    margin-top:db(3rem);
+    img{
+       width:100%;
+       height:db(320rem);
+    }
+}
+/**********************************整体款式结束******************************/
+/**********************************品牌介绍开始******************************/
+.sug{
+    width:100%;
+    height:auto;
+    background:#fff;
+}
+.sug-con{
+    width:95%;
+    height:auto;
+    margin:auto;
+}
+.sug-con-top{
+    width:100%;
+    height:db(76rem);
+    overflow: hidden;
+    .spa7{
+        color:#000;
+        float:left;
+        font-size:db(16rem);
+        margin-top:db(8rem);
+        float:left;
+    }
+    .spa8{
+        color:#000;
+        float:left;
+        font-size:db(14rem);
+        float:left; 
+        line-height:db(20rem); 
+    }
+}
+/**********************************品牌介绍结束******************************/
+/**********************************价格说明开始******************************/
+.rate{
+    width: 100%;
+    height:db(110rem);
+    background:#fff;
+}
+.rate-con{
+    width:95%;
+    height:db(110rem);
+    margin:auto;
+}
+.rate-con-top{
+    width:95%;
+    height:db(80rem);
+    margin:auto;
+    border:1px solid #ccc;
+    border-top:2px solid #ccc;
+}
+.rate-top-left{
+    width:5%;
+    height:db(80rem);
+    background:#FF5778;
+    float:left;
+}
+.rate-top-right{
+    width:92%;
+    height:db(80rem);
+    background:#fff;
+    float:right;
+    .spa9{
+        color:#FF5778;
+        font-size:db(14rem);
+        font-weight: bold;
+        float:left;
+    }
+    .spa10{
+        color:#333;
+        font-size:db(10rem);
+        float:left;
+        line-height:db(15rem);
+    }
+    .spa11{
+        color:#333;
+        font-size:db(10rem);
+        float: left;
+        line-height:db(15rem);
+    }
+     .spa12{
+        color:#333;
+        font-size:db(10rem);
+        float: left;
+         margin-top:db(8rem);
+    }
+}
+/**********************************价格说明结束******************************/
+/**********************************尺码介绍开始******************************/
+.tage{
+    width:100%;
+    height:db(408rem);
+    background:#fff;
+}
+.tage-con{
+    width:95%;
+    height:db(408rem);
+    margin:auto;
+}
+.tage-con-top{
+    width:100%;
+    height:db(82rem);
+    .tage-con-top-top{
+        height:db(40rem);
+        border-bottom:1px solid #ccc;
+     }
+   .tage-top-left{
+        width:25%;
+        height:db(40rem);
+        float:left;
+        color:#ccc;
+        font-size:db(14rem);
+        line-height:db(40rem); 
+     }
+}
+
+.tage-top-lefts{
+    width:25%;
+    height:db(40rem);
+    float:left;
+    color:#FF558C;
+    font-size:db(14rem);
+    line-height:db(40rem); 
+}
+/**********************************尺码介绍结束******************************/
+/**********************************店主说开始******************************/
+.tell{
+    width:100%;
+    height:auto;
+    background: #fff;
+}
+.tell-con{
+    width:95%;
+    height:auto;
+    margin:auto;
+    background:#fff;
+}
+.tell-top{
+     width:95%;
+     height:db(100rem);
+    overflow: hidden;
+   .pan1{
+        width:db(50rem);
+        height:db(50rem);
+        border-radius:50%;
+        display: block;
+        border:1px solid #ccc;
+        margin:auto;
+        margin-top:db(10rem);
+        text-align: center;
+        line-height:db(50rem);
+        color:#000;
+        font-size:db(14rem);
+        font-weight: bold;
+    }
+    .pan2{
+        width:db(60rem);
+        height:db(20rem);
+        text-align: center;
+        color:#000;
+        font-size:db(14rem);
+        margin:auto;
+        display: block;
+        margin-top:db(8rem);
+    }
+}
+.tell-cen{
+    width:70%;
+    height:db(228rem); 
+    margin:auto;
+    img{
+       width:100%;
+       height:db(228rem); 
+    }
+}
+.tell-cens{
+    width:95%;
+    height:db(198rem);
+    margin:auto;
+    margin-top:db(15rem);
+}
+.tell-cens-left{
+    width:48%;
+    height:db(198rem);
+    float:left;
+    background:red;
+    img{
+        width:50%;
+        margin:auto;
+        display: block;
+        margin-top:db(54rem); 
+    }
+}
+.tell-cens-right{
+    width:48%;
+    height:db(198rem);
+    float:right;
+    background:red;
+    img{
+        width:100%;
+        margin:auto;
+        display: block;
+    }
+}
+.tell-cens-down{
+    width:95%;
+    height:db(228rem);
+    margin:auto;
+    margin-top:db(15rem);
+    img{
+       width:100%;
+       height:db(228rem);
+    }
+}
+/**********************************店主说结束******************************/
+/******************************size-show开始******************************/
+.show{
+    width: 100%;
+    height:auto;
+    background:#fff;
+}
+.show-con{
+    width:95%;
+    height:auto;
+    margin:auto;
+}
+.show-top{
+    width:90%;
+    height:db(40rem);
+    background:#fff;
+    margin:auto;
+    overflow: hidden;
+    .pan3{
+        color:#ccc;
+        font-size:db(14rem);
+        text-align: center;
+        display: block;
+        margin-top:db(5rem);
+    }
+    .pan4{
+        width:100%;
+        height:db(5rem);
+        font-size:db(14rem);
+        text-align: center;
+        display: block;
+        background:yellowgreen;
+        margin-top:db(14rem);
+    }
+}
+.show-cen{
+    width:100%;
+    height:db(60rem);
+    background:#fff;
+    margin-top:db(20rem);
+    border:1px solid #ccc;
+    border-left:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+}
+.show-cen-top{
+    width:100%;
+    height:db(10rem);
+    border-bottom:1px dashed #ccc;
+    color:#ccc;
+    font-size:db(8rem);
+    text-align: center;
+    line-height:db(10rem); 
+}
+.show-cen-down{
+    height:db(50rem);
+}
+.show-down-left{
+    width:40%;
+    height:db(50rem);
+    float:left;
+}
+.show-down-left-con{
+    width:100%;
+    height:db(10rem);
+    margin-top:db(2rem);
+    .pan5{
+        color:#666;
+        font-size:db(8rem);
+        float:left;
+        display: block;
+        line-height:db(10rem);
+        margin-left:db(5rem);
+    }
+    .pan6{
+        color:#666;
+        font-size:db(8rem);
+        float:left;
+        display: block;
+        margin-left:db(8rem);
+        line-height:db(10rem);
+        margin-left:db(5rem);
+    }
+}
+.show-down-right{
+    width:60%;
+    height:db(50rem);
+    float:right;
+}
+.show-down-right-con{
+    width:100%;
+    height:db(10rem);
+    background:#EFEFEF;
+    margin-top:db(8rem);
+    border-radius:db(2rem);
+    span{
+        width:20%;
+        float:left;
+        font-size:db(8rem);
+        display: block;
+        text-align: center;
+        line-height:db(10rem); 
+    }
+}
+.show-down-right-cons{
+    width:100%;
+    height:db(10rem);
+    margin-top:db(5rem);
+    border-radius:db(2rem);
+    span{
+        width:20%;
+        float:left;
+        display: block;
+        font-size:db(8rem);
+        text-align: center;
+        line-height:db(10rem);
+        color:#ccc;
+    }
+}
+.show-down-right-down{
+    width:100%;
+    height:db(10rem);
+    margin-top:db(7rem);
+    span{
+        color:#ccc;
+        font-size:db(8rem);
+        display: block;
+    }
+}
+.can{
+    width:100%;
+    height:auto;
+    background:#fff;
+    margin-top:db(10rem);
+}
+.can-con{
+    margin:auto;
+    border:1px solid red;
+}
+.can-con-top{
+    width:100%;
+    height:db(30rem);
+    .pan7{
+        color:#ccc;
+        font-size:db(8rem);
+        display: block;
+    }
+     .pan8{
+        color:#ccc;
+        font-size:db(8rem);
+         display: block;
+    }
+    .pan9{
+         background:#393B44;
+         width:db(8rem);
+         height:db(5rem);
+        display: block;
+        float:left;
+        margin:db(3rem);
+    }
+}
+.can-con-cen{
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+}
+.can-con-cen-con{
+    width:80%;
+    height:db(130rem);
+    margin:auto;
+    margin-top:db(15rem);
+}
+.can-con-cen-left{
+     width:45%;
+    height:db(110rem);
+    float:left;
+    img{
+         width:100%;
+         height:db(110rem);
+    }
+    .pan10{
+        width:db(40rem);
+        background:#000;
+        height:db(10rem);
+        color:#fff;
+        margin:auto;
+        text-align:center;
+        line-height: db(10rem);
+        display: block;
+        font-size:db(8rem);
+        margin-top:db(3rem);
+    }
+}
+.can-con-cen-right{
+     width:45%;
+    height:db(110rem);
+    float:right;
+    img{
+         width:100%;
+         height:db(110rem);
+    }
+    .pan10{
+        width:db(40rem);
+        background:#000;
+        height:db(10rem);
+        color:#fff;
+        margin:auto;
+        text-align:center;
+        line-height: db(10rem);
+        display: block;
+        font-size:db(8rem);
+        margin-top:db(3rem);
+    }
+}
+.can-con-down{
+    width:100%;
+    height:db(176rem);
+    margin-top:db(15rem);
+}
+.can-con-down-con{
+     width:100%;
+    height:db(176rem);
+    margin:auto;
+    overflow: hidden;
+    span{
+        color:#ccc;
+        height:db(10rem);
+        display: block;
+        font-size:db(8rem);
+        line-height:db(10rem);
+        background:#fff;
+    }
+}
+.can-con-down-left{
+    width:45%;
+    margin-top:db(10rem);
+    height:db(176rem);
+    float:left;
+    img{
+       width:100%;
+        height:db(156rem);
+    }
+}
+.can-con-down-right{
+    width:45%;
+    margin-top:db(10rem);
+    height:db(176rem);
+    float:right;
+    img{
+       width:100%;
+        height:db(156rem);
+    }
+}
+/******************************size-show结束******************************/
+/******************************新款包包开始******************************/
+.new{
+    width:100%;
+    height:auto;
+    margin-top:db(30rem);
+    background:#fff;
+}
+.new-con{
+     width:95%;
+    height:db(180rem);
+    margin-top:db(30rem);
+    background:#fff;
+    margin:auto;
+}
+.new-left{
+    width:33%;
+    height:db(180rem);
+    float:left;
+    img{
+        width:100%;
+        height:db(140rem);
+    }
+    .pan12{
+        color:#3333;
+        display: block;
+        height:db(15rem);
+        font-size:db(14rem);
+    }
+    .pan13{
+        color:#3333;
+        display: block;
+        float:left;
+        height:db(15rem);
+        font-size:db(12rem);
+        margin-top:db(4rem);
+    }
+    i{
+        font-family: 'iconfont';
+        font-size:db(16rem);
+        color:#000;
+        float:left;
+        line-height:db(20rem); 
+        margin-left:db(7rem); 
+       } 
+    @font-face {
+          font-family: 'iconfont';  /* project id 501800 */
+          src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot');
+          src: url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.eot?#iefix') format('embedded-opentype'),
+          url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.woff') format('woff'),
+          url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.ttf') format('truetype'),
+          url('//at.alicdn.com/t/font_501800_9dvri00eteghkt9.svg#iconfont') format('svg');
+     }
+    .pan14{
+        color:#3333;
+        display: block;
+        float:right;
+        height:db(15rem);
+        font-size:db(12rem);
+        margin-top:db(4rem);
+    }
+}
+/******************************新款包包结束******************************/
+/********************************底部开始********************/
+.foot{
+    width:100%;
+    height:db(50rem);
+//    background:#f6f6f6;
+}
+.foot-con{
+    width:100%;
+    height:db(50rem);
+    background:#ffff;
+    margin-top:db(7rem);
+    position: fixed;
+    bottom:db(-5rem);
+    left:0;
+}
+.foot-left{
+    width:25%;
+    height:db(50rem);
+    float:left;
+    background:#fff;
+     margin-top:db(-2rem);
+    i{
+        font-family: 'iconfont';
+        font-size:db(20rem);
+        margin-left:40%;
+        color:#000;
+        display: block;
+        margin-top:db(3rem);
+    }
+    @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.eot');
+      src: url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.svg#iconfont') format('svg');
+   }
+    span{
+        color:#000;
+        font-size:db(12rem);
+        display: block;
+        text-align: center;
+        margin-top:db(5rem);
+    }
+}
+/********************************底部结束********************/

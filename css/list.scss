@@ -1,0 +1,267 @@
+@charset "UTF-8";
+
+html,body{
+	height:100%;
+	background:#F6F6F6;
+	font-size:20px;
+}
+@function db($num){
+    @return $num/20;
+}
+/********************************最热卖开始******************************/
+.title{
+    width:95%;
+    height:db(286rem);
+    background:#fff;
+    margin:auto;
+    overflow: hidden;
+} 
+.title-nav{
+    width:100%;
+    height:db(20rem);
+    margin-top:db(10rem);
+    text-align: center;
+    line-height:db(20rem);
+    color:#000;
+    font-size:db(12rem);
+}
+a{
+    text-decoration: none;
+}
+.title-top{
+    width:100%;
+    height:db(70rem);
+    margin-top:db(10rem);
+}
+.title-left{
+    width:25%;
+    height:db(70rem);
+    float:left;
+    img{
+        width:db(50rem);
+        height:db(50rem);
+        margin-left:20%;
+    }
+    span{
+        color:#000;
+        font-size:db(12rem);
+        text-align: center;
+        display: block;
+        margin-top:db(5rem);
+    }
+}
+
+.title-tops{
+    width:100%;
+    height:db(70rem);
+    margin-top:db(15rem);
+}
+.title-left{
+    width:25%;
+    height:db(70rem);
+    float:left;
+    img{
+        width: db(50rem);
+        height:db(50rem);
+        margin-left:20%;
+    }
+    span{
+        color:#000;
+        font-size:db(12rem);
+        text-align: center;
+        display: block;
+        margin-top:db(5rem);
+    }
+}
+/********************************最热卖结束******************************/
+/********************************正流行开始******************************/
+.fash{
+    width:95%;
+    height:db(130rem);
+    background:#fff;
+    margin:auto;
+    margin-top:db(10rem);
+    overflow: hidden;
+}
+.fash-nav{
+    width:100%;
+    height:db(20rem);
+    margin-top:db(10rem);
+    text-align: center;
+    line-height:db(20rem);
+    color:#000;
+    font-size:db(12rem);
+}
+.fash-left{
+    width:25%;
+    height:db(110rem);
+    float:left;
+    overflow: hidden;
+    img{
+        width: db(50rem);
+        height:db(50rem);
+        margin-left:20%;
+        margin-top:db(8rem);
+    }
+    span{
+        color:#000;
+        font-size:db(12rem);
+        text-align: center;
+        display: block;
+        margin-top:db(5rem);
+    }
+}
+/********************************正流行结束******************************/
+/********************************夏季新款开始******************************/
+.new{
+    width:100%;
+    height:auto;
+    margin:auto;
+    overflow: hidden;
+}
+.new-nav{
+    width:100%;
+    height:db(78rem);
+    text-align: center;
+    line-height:db(78rem);
+    color:#000;
+    font-size:db(12rem);
+}
+.jing{
+    width:100%;
+    height:db(30rem);
+    background:#f6f6f6;
+    .jing-top{
+        width:100%;
+        height:db(30rem);
+        background:#FF0077;
+   }
+}
+.jing-con{
+         width:25%;
+        height:db(30rem);
+        text-align: center;
+        line-height:db(30rem);
+        color:#fff;
+        font-size:db(12rem);
+        float:left;
+   }
+.map{
+    width:95%;
+    height:db(255rem);
+    margin:auto;
+    margin-top:db(5rem);
+}
+.map-left{
+    width:48%;
+    height:db(255rem);
+    float:left;
+    background:#ffff;
+    img{
+        width:100%;
+        height:db(198rem);
+    }
+}
+.map-right{
+    width:48%;
+    height:db(255rem);
+    float:right;
+    background:#fff;
+    img{
+        width:100%;
+        height:db(198rem);
+    }
+}
+.map-down{
+    width:100%;
+    height:db(15rem);
+    margin-top:db(8rem);
+    span{
+        background:#EFF3F6;
+        color:#000;
+        font-size:db(12rem);
+        margin-left:db(5rem);
+        height:db(15rem);
+        float:left;
+    }
+}
+.map-last{
+    width:100%;
+    height:db(15rem);
+    margin-top:db(10rem);
+    .pan1{
+        color:#000;
+        font-size:db(12rem);
+        margin-left:db(5rem);
+        height:db(15rem);
+        float:left;
+    }
+    .pan2{
+        color:#000;
+        font-size:db(12rem);
+        margin-left:db(5rem);
+        height:db(15rem);
+        float:left;
+        margin-left:40%;
+    }
+    i{
+        font-family: 'iconfont';
+        font-size:db(12rem);
+        float:right;
+    }
+    @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_kjuxd08sn990ms4i.eot');
+      src: url('//at.alicdn.com/t/font_501800_kjuxd08sn990ms4i.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_kjuxd08sn990ms4i.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_kjuxd08sn990ms4i.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_kjuxd08sn990ms4i.svg#iconfont') format('svg');
+    }
+}
+/********************************夏季新款结束******************************/
+/********************************底部开始********************/
+.foot{
+    width:100%;
+    height:db(50rem);
+//    background:#f6f6f6;
+}
+.foot-con{
+    width:100%;
+    height:db(50rem);
+    background:#ffff;
+    margin-top:db(7rem);
+    position: fixed;
+    bottom:db(-5rem);
+    left:0;
+}
+.foot-left{
+    width:25%;
+    height:db(50rem);
+    float:left;
+    background:#fff;
+     margin-top:db(-2rem);
+    i{
+        font-family: 'iconfont';
+        font-size:db(20rem);
+        margin-left:40%;
+        color:#000;
+        display: block;
+        margin-top:db(3rem);
+    }
+    @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.eot');
+      src: url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.svg#iconfont') format('svg');
+   }
+    span{
+        color:#000;
+        font-size:db(12rem);
+        display: block;
+        text-align: center;
+        margin-top:db(5rem);
+    }
+}
+/********************************底部结束********************/
