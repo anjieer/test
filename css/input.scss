@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+html,body{
+	height:100%;
+	background:#fff;
+	font-size:20px;
+}
+@function db($num){
+    @return $num/20;
+}
+/**********************************导航开始**********************************/
+.nav{
+    width:100%;
+    height:db(40rem);
+    border-bottom:1px solid #ccc;
+}
+.nav-con{
+    width:95%;
+    height:db(40rem);
+    margin:auto;
+}  
+.nav-left{
+    width:10%;
+    font-family:'iconfont';
+    font-size:db(14rem);
+    float:left;
+    line-height: db(40rem);
+}
+.nav-cen{
+    width:79%;
+    height:db(20rem);
+    font-size:db(14rem);
+    float:left;
+    border:1px solid #ccc;
+    line-height: db(40rem);
+    margin-top:db(10rem);
+    border-radius: db(4rem);
+    input{
+        outline:none;
+        border:none;
+        display: block;
+        margin-left:db(5rem);
+        font-size:db(12rem);
+        line-height: db(18rem);
+        background:none;
+    }
+}
+.nav-right{
+    width:10%;
+    font-size:db(14rem);
+    float:right;
+    line-height: db(40rem);
+}
+/**********************************导航结束**********************************/
+/********************************历史记录开始********************************/
+.his{
+    width:100%;
+    height:db(100rem);
+    border-bottom:1px solid #ccc;
+}
+.his-con{
+    width:95%;
+    height:db(100rem);
+    margin:auto;
+}
+.his-left{
+    font-family:'iconfont';
+    font-size:db(12rem);
+    float:left;
+    color:#ccc;
+    margin-top:db(20rem);
+    span{
+        color:#ccc;
+        font-size:db(12rem); 
+    }
+}
+.his-right{
+    font-family:'iconfont';
+    font-size:db(12rem);
+    float:right;
+    color:#ccc;
+    margin-top:db(20rem);
+}
+/*********************************历史记录结束********************************/
+/*********************************热门搜索开始********************************/
+.hot{
+    width:100%;
+    height:auto;
+}
+.hot-con{
+    width:95%;
+    height:auto;
+    margin:auto;
+}
+.hot-left{
+    font-family:'iconfont';
+    font-size:db(12rem);
+    float:left;
+    color:#ccc;
+    margin-top:db(15rem);
+    span{
+        color:#ccc;
+        font-size:db(12rem); 
+    }
+}
+.hot-down{
+    width:100%;
+    height:auto;
+    margin-top:db(15rem);
+    button{
+        background:#fff;
+        margin:db(3rem);
+    }
+}
+/*********************************热门搜索结束********************************/

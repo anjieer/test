@@ -1,0 +1,644 @@
+@charset "UTF-8";
+
+html,body{
+	height:100%;
+	background:#fff;
+	font-size:20px;
+}
+
+@function db($num){
+	@return $num/20;
+}
+
+/************************头部input开始*************************/
+.header{
+    width:100%;
+    height:db(40rem);
+}
+.header-con{
+    width:80%;
+    height:db(40rem);
+    margin:auto;
+}
+.header-left{
+    width:15%;
+    height:db(40rem);
+    float:left;
+    font-family:'iconfont';
+    font-size:db(16rem);
+    color:#333;
+    line-height:db(40rem);
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 501800 */
+  src: url('//at.alicdn.com/t/font_501800_j8vc6fmuhj1w0zfr.eot');
+  src: url('//at.alicdn.com/t/font_501800_j8vc6fmuhj1w0zfr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_501800_j8vc6fmuhj1w0zfr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_501800_j8vc6fmuhj1w0zfr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_501800_j8vc6fmuhj1w0zfr.svg#iconfont') format('svg');
+}
+.header-cen{
+    width:70%;
+    height:db(26rem);
+    background:#EEEEEE;
+    border-radius:db(4rem);
+    float:left;
+    margin-top:db(7rem);
+}
+.header-cen-left{
+    width:15%;
+    height:db(26rem);
+    float:left;
+    font-family:'iconfont';
+    font-size:db(16rem);
+    color:#333;
+    line-height:db(26rem);
+    padding-left:db(5rem);
+}
+input{
+    width:70%;
+    display: block;
+    height:db(25rem);
+    float:left;
+    font-family:'iconfont';
+    font-size:db(16rem);
+    color:#fff;
+    line-height:db(25rem);
+    padding-left:db(5rem);
+    border:none;
+    outline:none;
+    background:none; 
+}
+.header-right{
+    width:15%;
+    height:db(40rem);
+    float:right;
+    font-family:'iconfont';
+    font-size:db(16rem);
+    color:#333;
+    line-height:db(40rem);
+    text-align: right;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 501800 */
+  src: url('//at.alicdn.com/t/font_501800_j8vc6fmuhj1w0zfr.eot');
+  src: url('//at.alicdn.com/t/font_501800_j8vc6fmuhj1w0zfr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_501800_j8vc6fmuhj1w0zfr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_501800_j8vc6fmuhj1w0zfr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_501800_j8vc6fmuhj1w0zfr.svg#iconfont') format('svg');
+}
+/********************************头部input结束********************/
+/********************************图片轮播开始********************/
+.ban{
+    width:100%;
+    height:db(128rem);
+    position: relative;
+    img{
+      width:100%;
+      height:db(128rem);  
+    }
+}
+.circle{
+    width:db(200rem);
+    height:db(30rem);
+    position: absolute;
+    left:10%;
+    top:70%;
+}
+.c{
+    width:db(10rem);
+    height:db(10rem);
+    border-radius: 50%;
+    background:#fff;
+    display:block;
+    margin:db(5rem);
+    float:left; 
+}
+/********************************图片轮播结束********************/
+
+/********************************全民拼团开始********************/
+.good{
+    width:100%;
+    height:db(106rem);
+    background:#F6F6F6;
+    .good-con{
+    width:100%;
+    height:db(98rem);
+    background:#fff;
+  }
+}
+.good-left{
+    width:33%;
+    height:db(98rem);
+    float:left;
+    overflow:hidden;
+    border-right:1px solid #ccc;
+    span{
+        color:#FF6801;
+        font-size:db(14rem);
+        text-align: center;
+        display: block;
+        margin-top:db(10rem);
+    }
+    p{
+        color:#666666;
+        font-size:db(14rem);
+        text-align: center;
+        display: block;
+        margin-top:db(5rem);
+    }
+    img{
+        width:40%;
+        margin-top:db(-10rem);
+        margin-left:30%;
+   } 
+}
+.good-right{
+    width:33%;
+    height:db(98rem);
+    float:left;
+    overflow:hidden;
+    span{
+        color:#FF6801;
+        font-size:db(14rem);
+        text-align: center;
+        display: block;
+        margin-top:db(10rem);
+    }
+   p{
+        color:#666666;
+        font-size:db(14rem);
+        text-align: center;
+        display: block;
+        margin-top:db(5rem);
+    }
+    img{
+        width:40%;
+        margin-top:db(-10rem);
+        margin-left:30%;
+   } 
+}
+/********************************全民拼团结束********************/
+/********************************距结束开始********************/
+.end{
+    width:100%;
+    height:db(166rem);
+    background:#f6f6f6;
+    .end-con{
+    width:100%;
+    height:db(158rem);
+    background:#fff;
+  }
+}
+.end-top{
+    width:100%;
+    height:db(46rem);
+    position: relative;
+    span{
+        display: block;
+        color:#000;
+        font-size:db(14rem);
+        font-weight: bold;
+        line-height:db(46rem);
+        margin-left:db(14rem);
+        float:left;
+    }
+    p{
+        float:right;
+        margin-right:db(30rem);
+        color:#333;
+        font-size:db(14rem);
+    }
+    b{
+        position:absolute;
+        right:db(6rem);
+        top:0;
+        width: 0;
+        height: 0;
+        float:right;
+        border-width:db(8rem);
+        margin-top:db(15rem);
+        border-style: solid dashed dashed;
+        border-color: transparent transparent transparent #bbb;
+        font-size: 0;
+        line-height: 0;
+    }
+}
+.end-set{
+    width:db(100rem);
+    height:db(20rem);
+    float:left;
+    background:pink;
+    margin-top:db(12rem);
+    font-size:db(12rem);
+    line-height:db(20rem);
+    margin-left:db(5rem);
+    border-radius:db(4rem);
+}
+.end-down{
+    width:100%;
+    height:db(112rem);
+}
+.end-down-left{
+    width:25%;
+    height:db(112rem);
+    float:left;
+    img{
+        width:90%;
+    }
+    span{
+        display: block;
+        font-size:db(12rem);
+        text-align: center;
+    }
+}
+.spa1{
+    display: block;
+    color:#FF2255;
+    float:left;
+    font-size:db(12rem);
+    margin-top:db(8rem);
+}
+.spa1 del{
+    color:#ccc;
+    float:right;
+    font-size:db(12rem);
+}
+/********************************距结束结束********************/
+
+/********************************超实惠开始********************/
+.bene{
+    width:100%;
+    height:db(280rem);
+    background:#fff;
+}
+.bene-head{
+    width:100%;
+    height:db(35rem);
+    border-bottom: 1px solid #ccc;
+    span{
+        color:#333;
+        font-size:db(14rem);
+        font-weight:bold;
+        line-height:db(35rem);
+        margin-left:db(10rem);
+    }
+}
+.bene-cen{
+    width:100%;
+    height:db(135rem);
+    border-bottom: 1px solid #ccc;
+}
+.bene-cen-left{
+    width:49.5%;
+    height:db(135rem);
+    border-right:1px solid #ccc;
+    float:left;
+    overflow: hidden;
+    span{
+        color:#000;
+        font-size:db(14rem);
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        margin-top:db(15rem);
+    }
+    .spa2{
+        color: #FF5F7E;
+        font-size:db(14rem);
+        text-align: center;
+        font-weight: bold;
+    }
+    img{
+        width:70%;
+        margin-left:db(23rem);
+    }
+}
+.bene-cen-right{
+    width:49.5%;
+    height:db(135rem);
+    border-right:1px solid #ccc;
+    float:left;
+}
+.bene-top{
+    width:100%;
+    height:db(67rem);
+    border-bottom:1px solid #ccc;
+    overflow: hidden;
+    span{
+        color:#000;
+        display: block;
+        font-weight: bold;
+        font-size:db(14rem);
+        margin-top:db(20rem);
+        margin-left:db(10rem);
+    }
+    .spa3{
+        color: #FF5F7E;
+        font-size:db(14rem);
+        font-weight: bold;
+        margin-left:db(10rem);
+    }
+    img{
+        width:40%;
+        float:right;
+        margin-top:db(-40rem);
+    }
+}
+.bene-tops{
+         width:100%;
+        height:db(67rem);
+        overflow: hidden;
+    span{
+        color:#000;
+        display: block;
+        font-weight: bold;
+        font-size:db(14rem);
+        margin-top:db(20rem);
+        margin-left:db(10rem);
+    }
+    .spa3{
+        color: #FF5F7E;
+        font-size:db(14rem);
+        font-weight: bold;
+        margin-left:db(10rem);
+    }
+    img{
+        width:40%;
+        float:right;
+        margin-top:db(-40rem);
+    }
+}
+.bene-down{
+    width:100%;
+    height:db(108rem);
+}
+.ben-down-left{
+    width:33%;
+    height:db(108rem);
+    border-right:1px solid #ccc;
+    float:left;
+    span{
+        display: block;
+        color:#000;
+        font-size:db(14rem);
+        margin-top:db(6rem);
+        text-align: center;
+    }
+    .spa4{
+        display: block;
+        color:#FF2255;
+        font-size:db(14rem);
+        text-align: center;
+    }
+    img{
+        width:80%;
+        margin-left:db(10rem);
+    }
+}
+.ben-down-lefts{
+    width:33%;
+    height:db(108rem);
+    float:left;
+    span{
+        display: block;
+        color:#000;
+        font-size:db(14rem);
+        margin-top:db(6rem);
+        text-align: center;
+    }
+    .spa4{
+        display: block;
+        color:#FF2255;
+        font-size:db(14rem);
+        text-align: center;
+    }
+    img{
+        width:80%;
+        margin-left:db(10rem);
+    }
+}
+/********************************超实惠结束********************/
+/********************************拼拼团开始********************/
+.spe{
+    width:100%;
+    height:db(80rem);
+    background:#f6f6f6;
+}
+.spe-left{
+    width:30%;
+    height:db(70rem);
+    float:left;
+    margin-top:db(10rem);
+    img{
+        width:100%;
+        height:db(70rem);
+    }
+}
+.spe-lefts{
+    width:30%;
+    height:db(70rem);
+    float:left;
+    margin-top:db(10rem);
+    margin-left:5%;
+    img{
+        width:100%;
+        height:db(70rem);
+    }
+}
+/********************************拼拼团结束********************/
+/********************************热门市场开始********************/
+.hot{
+    width:100%;
+    height:db(370rem);
+    background:#fff;
+    span{
+    width:100%;
+    height:db(30rem);
+    text-align: center;
+    line-height:db(40rem);
+    color:#000;
+    font-weight: bold;
+    font-size:db(20rem);
+    display: block;
+  }
+}
+
+.hot-con{
+    width:100%;
+    height:db(65rem);
+    margin-top:db(15rem);
+}
+.hot-left{
+    width:25%;
+    height:db(65rem);
+    float:left;
+    img{
+        width:80%;
+        margin-left:db(10rem);
+        margin-top:db(-5rem);
+    }
+    .spa5{
+        font-size:db(12rem);
+        text-align: center;
+        margin-top:db(5rem);
+    }
+}
+/********************************热门市场结束********************/
+
+/********************************猜你喜欢开始********************/
+.gue{
+    width:100%;
+    height:auto;
+    background:#f6f6f6;
+    p{
+    width:100%;
+    height:db(54rem);
+    background:#fff;
+    text-align: center;
+    line-height:db(40rem);
+    color:#000;
+    font-weight: bold;
+    font-size:db(20rem);
+    display: block;  
+  }
+}
+.gue-con{
+    width:100%;
+    height:db(266rem);
+}
+.gue-left{
+    width:48%;
+    height:db(266rem);
+    float:left;
+    margin-left:1.3%;
+    margin-top:db(10rem);
+}
+.gue-left-top{
+    width:100%;
+    height:db(198rem);
+    img{
+        width:100%;
+        height:db(198rem);
+    }
+}
+.gue-left-down{
+    width:100%;
+    height:db(68rem);
+    margin:auto;
+    background:#fff;
+    overflow:hidden;
+}
+.gue-left-down-con{
+    width:90%;
+    height:db(60rem);
+    margin:auto;
+    margin-top:db(4rem);
+}
+.gue-left-down-top{
+    width:90%;
+    height:db(40rem);
+    margin:auto;
+    margin-top:db(4rem);
+    overflow: hidden;
+    span{
+        display: inline-block;
+        background:#EFF3F6;
+        color:#5A6F7A;
+        font-size:db(12rem);
+        margin-top:db(3rem);
+        margin-left:db(3rem); 
+   }
+}
+.gue-left-down-down{
+    width:90%;
+    height:db(20rem);
+    margin:auto;
+}
+.gue-left-down-left{
+    width:50%;
+    height:db(20rem);
+    float:left;
+    span{
+        color:#000;
+        font-size:db(12rem);
+        float:left;
+        line-height:db(20rem);
+    }
+}
+.gue-left-down-right{
+    width:50%;
+    height:db(20rem);
+    float:right;
+    span{
+        color:#000;
+        font-size:db(12rem);
+        float:left;
+        margin-left:25%;
+        line-height:db(20rem);
+    }
+    i{
+       font-family: 'iconfont';
+        font-size:db(12rem);
+        float:right;
+        line-height: db(20rem);
+        color:#000;
+    }
+    @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_3ca21rye32jll3di.eot');
+      src: url('//at.alicdn.com/t/font_501800_3ca21rye32jll3di.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_3ca21rye32jll3di.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_3ca21rye32jll3di.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_3ca21rye32jll3di.svg#iconfont') format('svg');
+   }
+}
+/********************************猜你喜欢结束********************/
+/********************************底部开始********************/
+.foot{
+    width:95%;
+    height:db(50rem);
+    background:#f6f6f6;
+    margin:auto;
+    margin-top:db(50rem);
+}
+.foot-con{
+    width:100%;
+    height:db(50rem);
+    background:#ffff;
+    margin-top:db(7rem);
+    position: fixed;
+    bottom:db(-5rem);
+    left:0;
+}
+.foot-left{
+    width:25%;
+    height:db(50rem);
+    float:left;
+    background:#fff;
+     margin-top:db(-2rem);
+    em{
+        font-family: 'iconfont';
+        font-size:db(20rem);
+        margin-left:40%;
+        color:#000;
+        display: block;
+        margin-top:db(3rem);
+    }
+    @font-face {
+      font-family: 'iconfont';  /* project id 501800 */
+      src: url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.eot');
+      src: url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.woff') format('woff'),
+      url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_501800_u7q9r8e8ddqxs9k9.svg#iconfont') format('svg');
+   }
+    span{
+        color:#000;
+        font-size:db(12rem);
+        display: block;
+        text-align: center;
+        margin-top:db(5rem);
+    }
+}
+/********************************底部结束********************/

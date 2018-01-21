@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+html,body{
+	height:100%;
+	background:#FFFFFF;
+	font-size:20px;
+}
+
+@function db($num){
+    @return $num/20;
+}
+/******************************导航开始********************************/
+.nav{
+    width:100%;
+    height:db(38rem);
+    background:#FAFAFA;
+    border-bottom:1px solid #C9C7C8;
+}
+.nav-left{
+    width:10%;
+    height:db(38rem);
+    float:left;
+    color:#000;
+    font-family: 'iconfont';
+    font-size:db(14rem);
+    text-align: center;
+    line-height:db(38rem);
+}
+.nav-cen{
+    width:70%;
+    height:db(38rem);
+    float:left;
+    color:#000;
+    font-family: 'iconfont';
+    font-size:db(14rem);
+    text-align: center;
+    line-height:db(38rem);
+    float:left;
+}
+/******************************导航结束*************************************/
+/******************************蘑菇街账号开始********************************/
+.start{
+    width:100%;
+    height:db(60rem);
+}
+.start-con{
+    width:95%;
+    height:db(30rem);
+    margin:auto;
+    border-bottom:1px solid #ccc;
+    margin-top:db(40rem);
+    input{
+        border:none;
+        outline: none;
+        font-size:db(16rem);
+        color:#424242;
+        background:none;
+        line-height:db(30rem); 
+        vertical-align: middle;
+    }
+}
+.start-cons{
+    width:95%;
+    height:db(30rem);
+    margin:auto;
+    border-bottom:1px solid #ccc;
+    input{
+        border:none;
+        outline: none;
+        font-size:db(16rem);
+        color:#424242;
+        background:none;
+        line-height:db(30rem); 
+        vertical-align: middle;
+    }
+}
+/******************************蘑菇街账号结束********************************/
+/******************************登录开始********************************/
+.deng{
+    width:95%;
+    height:db(40rem);
+    background-color: #FF5777;
+    border-radius: db(20rem);
+    margin:auto;
+    margin-top:db(20rem);
+    text-align: center;
+    line-height:db(40rem);
+    color:#fff;
+    font-size:db(16rem);
+}
+.wang{
+    float:right;
+    margin-top:db(10rem);
+    color:#ccc;
+    font-size:db(12rem);
+}
+/******************************登录结束********************************/

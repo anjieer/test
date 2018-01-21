@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+html,body{
+	height:100%;
+	background:#fff;
+	font-size:20px;
+}
+@function db($num){
+    @return $num/20;
+}
+/**********************登录开始**********************************/
+.deng{
+    width:100%;
+    height:auto;
+    font-size:db(30rem);
+    text-align: center;
+    margin-top:db(50rem);
+}
+/**********************登录结束**********************************/
+/**********************qq登录开始**********************************/
+.start{
+    width:100%;
+    height:db(40rem);
+}
+.start-con{
+    width:80%;
+    height:db(40rem);
+    margin:auto;
+    margin-top:db(50rem);
+    background-color: rgb(10, 184, 245);
+    border-radius:db(20rem);
+}
+.start-cons{
+    width:40%;
+    height:db(40rem);
+    margin:auto;
+    img{
+        width:db(20rem);
+        height:db(20rem);
+        margin-top:db(10rem);
+        float:left;
+    }
+    span{
+       color:#fff;
+        font-size:db(16rem);
+        line-height:db(40rem); 
+    }
+}
+/**********************qq登录结束**********************************/
+/**********************线开始**********************************/
+.xian{
+    width:db(20rem);
+    border-bottom:1px solid #666;
+    margin-left:48%;
+    margin-top:db(50rem);
+}
+/**********************线结束**********************************/
+/**********************其他方式登录开始**********************************/
+.shi{
+    width:100%;
+    height:auto;
+    text-align: center;
+    color:#666;
+    margin-top:db(30rem);
+}
+.shi-con{
+    width:80%;
+    height:db(100rem);
+    margin:auto;
+    margin-top:db(35rem);
+}
+.shi-left{
+   width:50%;
+   height:db(100rem);
+    float:left;
+    .tubiao{
+        width:db(30rem);
+        height:db(30rem);
+        border-radius:50%;
+        border:1px solid #333;
+        font-size:db(20rem);
+        margin-left:36%;
+        font-family:'iconfont';
+        line-height:db(30rem); 
+        span{
+            font-size:db(12rem);
+            text-align: center;
+            color:#000;
+            display:block;
+            margin-top:db(10rem);
+        }
+    }
+}
+.shi-right{
+    width:50%;
+    height:db(100rem);
+    float:right;
+     div{
+        width:db(30rem);
+        height:db(30rem);
+        border-radius:50%;
+        border:1px solid #333;
+        font-size:db(20rem);
+        margin-left:36%;
+        font-family:'iconfont';
+        line-height:db(30rem); 
+        .tubiao{
+            font-size:db(12rem);
+            text-align: center;
+            color:#000;
+            display:block;
+            margin-top:db(10rem);
+        }
+    }
+}
+/**********************其他方式登录结束**********************************/
